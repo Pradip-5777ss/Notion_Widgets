@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <style>
+        .myButton {
+            align-items: center;
+            background-color: #027cff;
+            border-radius: 8px;
+            border-style: none;
+            box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+            box-sizing: border-box;
+            color: #fff;
+            cursor: pointer;
+            display: flex;
+            flex-direction: row;
+            flex-shrink: 0;
+            font-family: "RM Neue", sans-serif;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0;
+            padding: 10px 14px 10px 10px;
+            text-align: center;
+            text-transform: none;
+            transition: color .13s ease-in-out, background .13s ease-in-out, opacity .13s ease-in-out, box-shadow .13s ease-in-out;
+            touch-action: manipulation;
+        }
+
+        .image {
+            padding: 0px 10px 0px 0px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <button class="myButton" type="button" onclick="navigate()">
+        <img class="image"
+            src="https://user-images.githubusercontent.com/63964149/152531278-5e01909d-0c2e-412a-8acc-4a06863c244d.png"
+            alt="" height="20px" width="20px">
+        Code Studio
+    </button>
+
+    <script>
+        function navigate() {
+            window.open("https://leetcode.com/", '_parent').focus();
+        }
+    </script>
+
+</body>
+
+</html>
